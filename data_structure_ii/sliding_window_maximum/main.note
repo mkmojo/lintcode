@@ -1,0 +1,8 @@
+1. when doing siftDown, pay attention when checking for lete and right children
+    for they might go out of arry bound.
+    therefore, its better to check with heap.size();
+    if(lson(cnt_root) < heap.size() && compare_less(heap[father(cnt_root)], heap(cnt_root))
+
+2. when comparing value, remember they goes into the heap.
+
+3. key functions are siftUp and siftDown. 
